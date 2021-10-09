@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background: #4067e4;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 35px;
+  border-radius: 50%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+header {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 200px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+header .brand {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .navegation {
+  position: relative;
+}
+
+header .navegation .navegation-items a {
+  position: relative;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  -webkit-transition: 0.3 ease;
+  transition: 0.3 ease;
+}
+
+header .navegation .navegation-items a:before {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+header .navegation .navegation-items a:hover:before {
+  width: 100%;
+}
+
+section {
+  margin-top: 50px;
+}
+
+/*---------------------------------------*/
+/*-------------------------------------------*/
+.footer {
+  overflow: hidden;
+  background: black;
+  text-align: center;
+  border-radius: 0 90px 0 0;
+}
+
+.footer__logo {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+.footer__links {
+  margin-top: 60px;
+}
+
+.footer__links:nth-last-of-type(1) {
+  margin-top: 0;
+}
+
+.footer__link {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer__link--main {
+  color: #0e6bf7;
+  font-weight: 900;
+}
+
+/* ----------------------------------------------- */
+@media (max-width: 1040px) {
+  header {
+    padding: 12px 20px;
+  }
+  section {
+    padding: 30px 20px;
+  }
+  header .navegation {
+    display: none;
+  }
+  header .navegation.active {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: rgba(0, 0, 0, 0.897);
+  }
+  header .navegation .navegation-items a {
+    color: white;
+    font-size: 1.2em;
+    margin: 20px;
+  }
+  header .navegation.active .navegation-items a::before {
+    background: #0e6bf7;
+    height: 5px;
+  }
+  header .navegation .navegation-items {
+    background: black;
+    border: solid #0e6bf7 1px;
+    width: 600px;
+    max-width: 600px;
+    margin: 20px;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    bottom: 5px;
+    -webkit-box-shadow: 0 5px 25px rga(1 1 1/20);
+            box-shadow: 0 5px 25px rga(1 1 1/20);
+  }
+  .menu-btn {
+    background: url(../images/abrir-menu.png);
+    background-size: 50px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  .menu-btn.active {
+    z-index: 999;
+    background: url(../images/cerrar-menu-x.png);
+    background-size: 50px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+}
+
+/*----------------------------*/
+@media screen and (min-width: 550px) {
+  .footer__container {
+    padding: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    justify-items: center;
+  }
+  .footer__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=style-trabajo.css.map */
