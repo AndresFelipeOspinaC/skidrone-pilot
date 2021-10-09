@@ -113,7 +113,6 @@
     header {
       padding: 12px 20px;
     }
-  
     section {
       padding: 30px 20px;
     }
@@ -135,17 +134,18 @@
   
     header .navegation .navegation-items a {
       color: white;
+      text-align: center;
       font-size: 1.2em;
       margin: 20px;
-    }
-  
-    header .navegation.active .navegation-items a::before {
-      background: rgb(14, 107, 247);
-      height: 5px;
+      border: 2px solid blue;
+      padding: 14px 10px;
+      border-radius: 50px;
+      width: 200px;
+      transition: 0.25s;
     }
   
     header .navegation .navegation-items {
-      background:black;
+      background: black;
       border: solid rgb(14, 107, 247) 1px;
       width: 600px;
       max-width: 600px;
