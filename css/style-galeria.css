@@ -130,9 +130,6 @@ section {
   header {
     padding: 12px 20px;
   }
-  section {
-    padding: 30px 20px;
-  }
   header .navegation {
     display: none;
   }
@@ -209,7 +206,7 @@ section {
 }
 
 /*----------------------------*/
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 650px) {
   .footer__container {
     padding: 50px;
     display: -ms-grid;
@@ -235,4 +232,4 @@ section {
     margin: 0;
   }
 }
-/*# sourceMappingURL=style-trabajo.css.map */
+/*# sourceMappingURL=style-galeria.css.map */

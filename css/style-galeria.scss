@@ -113,9 +113,7 @@
     header {
       padding: 12px 20px;
     }
-    section {
-      padding: 30px 20px;
-    }
+
   
     header .navegation {
       display: none;
@@ -178,7 +176,7 @@
     }
   }
   /*----------------------------*/
-  @media screen and (min-width: 550px) {
+  @media screen and (min-width: 650px) {
     .footer__container {
       padding: 50px;
       display: grid;

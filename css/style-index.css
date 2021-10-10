@@ -207,6 +207,13 @@ main {
   transition-property: clip-path, -webkit-clip-path;
 }
 
+.color-blue {
+  background: #007bff;
+  background: -webkit-gradient(linear, left top, right top, from(#1a1a1b), to(#0f2644));
+  background: linear-gradient(to right, #1a1a1b, #0f2644);
+  color: #fff;
+}
+
 /*----- end botones de video-----------*/
 .footer {
   overflow: hidden;
@@ -325,7 +332,7 @@ main {
 }
 
 /*----------------------------*/
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 650px) {
   .intro-servicios .container a {
     position: relative;
     top: 50px;

@@ -203,7 +203,7 @@ section {
 }
 
 /*----------------------------*/
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 650px) {
   .footer__container {
     padding: 50px;
     display: -ms-grid;

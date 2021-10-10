@@ -94,7 +94,7 @@ main {
 .intro-servicios {
   position: relative;
   background-color: #2751db;
-  height: 75vh;
+  height: 70vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -127,6 +127,20 @@ main {
   background: #140c03;
   opacity: 0.5;
   z-index: 1;
+}
+
+.color-blue {
+  background: #007bff;
+  background: -webkit-gradient(linear, left top, right top, from(#1a1a1b), to(#0f2644));
+  background: linear-gradient(to right, #1a1a1b, #0f2644);
+  color: #fff;
+}
+
+.bg-image {
+  background-image: url("../images/IMG-20211001-WA0020.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*-------------------------------------------*/
@@ -247,7 +261,7 @@ main {
 }
 
 /*----------------------------*/
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 650px) {
   .footer__container {
     padding: 50px;
     display: -ms-grid;
