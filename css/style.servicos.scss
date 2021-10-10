@@ -76,7 +76,7 @@ main{
 .intro-servicios {
   position: relative;
   background-color: rgb(39, 81, 219);
-  height: 70vh;
+  height: 75vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -108,10 +108,13 @@ main{
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgb(20, 12, 3);
+  background: rgb(0, 0, 0);
   opacity: 0.5;
   z-index: 1;
 }
+
+
+
 
 .color-blue {
   background: #007bff;

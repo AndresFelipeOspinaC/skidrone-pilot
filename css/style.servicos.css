@@ -94,7 +94,7 @@ main {
 .intro-servicios {
   position: relative;
   background-color: #2751db;
-  height: 70vh;
+  height: 75vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -124,7 +124,7 @@ main {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #140c03;
+  background: black;
   opacity: 0.5;
   z-index: 1;
 }
