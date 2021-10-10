@@ -131,6 +131,7 @@
     }
   
     header .navegation .navegation-items a {
+      background: black;
       color: white;
       text-align: center;
       font-size: 1.2em;
@@ -143,7 +144,7 @@
     }
   
     header .navegation .navegation-items {
-      background: black;
+      background: rgba(36, 36, 36, 0.582);
       border: solid rgb(14, 107, 247) 1px;
       width: 600px;
       max-width: 600px;

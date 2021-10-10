@@ -206,6 +206,7 @@ main {
     background: rgba(0, 0, 0, 0.897);
   }
   header .navegation .navegation-items a {
+    background: black;
     color: white;
     text-align: center;
     font-size: 1.2em;
@@ -218,7 +219,7 @@ main {
     transition: 0.25s;
   }
   header .navegation .navegation-items {
-    background: black;
+    background: rgba(36, 36, 36, 0.582);
     border: solid #0e6bf7 1px;
     width: 600px;
     max-width: 600px;
