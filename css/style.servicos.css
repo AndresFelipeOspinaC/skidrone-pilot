@@ -86,10 +86,6 @@ header .navegation .navegation-items a:hover:before {
   width: 100%;
 }
 
-main {
-  margin-top: 150px;
-}
-
 /*---------------------------------------*/
 .intro-servicios {
   position: relative;
@@ -152,8 +148,17 @@ main {
   padding: 22px;
 }
 
-.nav a {
-  padding: 0;
+.nav-servicios {
+  position: relative;
+  top: 10px;
+  background: rgba(0, 0, 0, 0.788);
+  border: solid #0066ff;
+  padding: 5px 10px;
+  color: #0066ff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 50px;
 }
 
 /*-------------------------------------------*/
@@ -275,7 +280,7 @@ main {
 }
 
 /*----------------------------*/
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
   .footer__container {
     padding: 50px;
     display: -ms-grid;
