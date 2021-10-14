@@ -223,9 +223,7 @@ main {
 }
 
 .footer__logo {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  width: 70%;
+  margin-top: 80px;
 }
 
 .footer__links {
@@ -274,15 +272,15 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: rgba(0, 0, 0, 0.897);
+    background: rgba(0, 0, 0, 0.589);
   }
   header .navegation .navegation-items a {
-    background: black;
+    background: rgba(33, 41, 68, 0.664);
     color: white;
     text-align: center;
     font-size: 1.2em;
     margin: 20px;
-    border: 2px solid blue;
+    border: 2px solid #0e6bf7;
     padding: 14px 10px;
     border-radius: 50px;
     width: 200px;
@@ -290,7 +288,7 @@ main {
     transition: 0.25s;
   }
   header .navegation .navegation-items {
-    background: rgba(36, 36, 36, 0.582);
+    background: black;
     border: solid #0e6bf7 1px;
     width: 600px;
     max-width: 600px;
@@ -329,11 +327,13 @@ main {
     height: 50px;
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
+    position: fixed;
+    right: 20px;
   }
 }
 
 /*----------------------------*/
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .intro-servicios .container a {
     position: relative;
     top: 50px;

@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
   }
-  html{
-    scroll-behavior: smooth;
-  }
+
 
   .gotopbtn{
     position: fixed;
@@ -86,9 +84,7 @@
     border-radius: 0 90px 0 0;
   }
   .footer__logo {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    width: 70%;
+    margin-top: 80px;
   }
   .footer__links {
     margin-top: 60px;
@@ -127,16 +123,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: rgba(0, 0, 0, 0.897);
+      background: rgba(0, 0, 0, 0.589);
     }
   
     header .navegation .navegation-items a {
-      background: black;
+      background: rgba(33, 41, 68, 0.664);
       color: white;
       text-align: center;
       font-size: 1.2em;
       margin: 20px;
-      border: 2px solid blue;
+      border: 2px solid rgb(14, 107, 247);
       padding: 14px 10px;
       border-radius: 50px;
       width: 200px;
@@ -144,7 +140,7 @@
     }
   
     header .navegation .navegation-items {
-      background: rgba(36, 36, 36, 0.582);
+      background: black;
       border: solid rgb(14, 107, 247) 1px;
       width: 600px;
       max-width: 600px;
@@ -174,12 +170,14 @@
       width: 50px;
       height: 50px;
       transition: 0.3s ease;
+      position: fixed;
+      right: 20px;
     }
   }
   /*----------------------------*/
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 800px) {
     .footer__container {
-      padding: 50px;
+      padding: 20px;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       justify-content: space-between;
