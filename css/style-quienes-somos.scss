@@ -4,9 +4,24 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
+
+.whatsapp{
+  z-index: 5;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  font-size: 35px;
+
+}
+.whatsapp img{
+  width: 43px;
+}
 .gotopbtn{
   position: fixed;
-  bottom: 20px;
+  bottom: 10px;
   right: 20px;
   text-decoration: none;
   text-align: center;
@@ -18,12 +33,14 @@
 .gotopbtn img{
   width: 42px;
 }
+
 header {
   z-index: 999;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  max-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,15 +71,18 @@ header .navegation .navegation-items a {
 header .navegation .navegation-items a:before {
   content: "";
   position: absolute;
-  background: rgb(255, 255, 255);
+  background: rgb(5, 32, 105);
   width: 0;
-  height: 3px;
+  height: 30px;
   bottom: 0;
   left: 0;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
 header .navegation .navegation-items a:hover:before {
-  width: 100%;
+  left: -7px;
+  width: 110%;
+  height: 2px;
+  background: rgba(95, 183, 241, 0.979);
 }
 
 
@@ -73,7 +93,7 @@ header .navegation .navegation-items a:hover:before {
   border-radius: 0 90px 0 0;
 }
 .footer__logo {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 .footer__links {
   margin-top: 60px;
