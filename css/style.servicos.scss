@@ -91,7 +91,7 @@ header .navegation .navegation-items a:hover:before {
 .intro-servicios {
   position: relative;
   background-color: rgb(39, 81, 219);
-  height: 75vh;
+  height: 50vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -115,6 +115,10 @@ header .navegation .navegation-items a:hover:before {
 .intro-servicios .container {
   position: relative;
   z-index: 2;
+  font-weight: 900;
+}
+.intro-servicios h1{
+  font-weight: 700;
 }
 
 .intro-servicios .overlay {
@@ -128,8 +132,13 @@ header .navegation .navegation-items a:hover:before {
   z-index: 1;
 }
 
-
-
+.page-section{
+  background: linear-gradient( white, #dbe5f1 );
+}
+.page-section a{
+  text-decoration: none;
+  color: black;
+}
 
 .color-blue {
   background: #007bff;
@@ -165,6 +174,12 @@ header .navegation .navegation-items a:hover:before {
   text-decoration: none;
   border-radius: 50px;
 }
+
+.fotografia{
+  margin: 0;
+  padding: 0;
+}
+
 
 
 /*-------------------------------------------*/
