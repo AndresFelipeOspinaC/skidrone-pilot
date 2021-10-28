@@ -88,13 +88,20 @@ header .navegation .navegation-items a:hover:before {
 main {
   margin-top: 150px;
 }
+.page-section{
+  background: linear-gradient( white, #dbe5f1 );
+}
+.page-section a{
+  text-decoration: none;
+  color: black;
+}
 
 /*---------------------------------------*/
 
 .intro-servicios {
   position: relative;
   background-color: rgb(39, 81, 219);
-  height: 100vh;
+  height: 85vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -227,6 +234,9 @@ main {
   header {
     padding: 12px 20px;
   }
+  header img{
+    width: 80%;
+  }
   section {
     padding: 0px 20px;
   }
@@ -293,6 +303,7 @@ main {
     position: fixed;
     right: 20px;
   }
+  
 }
 
 /*----------------------------*/

@@ -91,7 +91,7 @@ header .navegation .navegation-items a:hover:before {
 .intro-servicios {
   position: relative;
   background-color: rgb(39, 81, 219);
-  height: 50vh;
+  height: 70vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -215,6 +215,9 @@ header .navegation .navegation-items a:hover:before {
 @media (max-width: 1040px) {
   header {
     padding: 12px 20px;
+  }
+  header img{
+    width: 80%;
   }
 
   header .navegation {
